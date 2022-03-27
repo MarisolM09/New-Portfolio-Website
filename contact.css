@@ -32,6 +32,10 @@ ul.nav2, a, li {
     padding-right: 20px;
     padding-top: 5px;
 }
+.changecolor {
+    color: #64FFDB;
+    font-family: 'Noto Sans Mono', monospace;
+}
 .contact:hover {
     color: #64FFDB;
 }
@@ -50,10 +54,9 @@ ul.nav2, a, li {
 }
 button:hover {
     filter: brightness(150%);
-    
 }
 .button {
-    padding: 15px;
+    padding-top: 15px;
 }
 .main, p {
     padding: 0 5%;
@@ -93,23 +96,22 @@ h2 {
     color: #64FFDB;
     font-family: 'Noto Sans Mono', monospace;
 }
+h3 {
+    text-align: center;
+}
 input[type=text], input[type=email], textarea {
-	background-color: #CCD6F6;
+	width: 100%;
+    background-color: #CCD6F6;
+    box-sizing: border-box;
     border-radius: 6px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    padding: 8px;
 }
 form {
     border-style: solid;
-    padding: 5px;
-    text-align: center;
+    padding: 20px ;
     border-radius: 6px;
-}
-.backdrop {
-    padding: 0 0 30px 30px;
-  }
-.backdrop img {
-    border-radius: 6px;
-    display: inline-block;
-    box-shadow: -30px 30px 0 #64FFDB;
 }
 .sidebar {
     grid-area: side;
