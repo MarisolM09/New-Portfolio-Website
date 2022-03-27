@@ -1,0 +1,135 @@
+body {
+    background-color: #0A192F;
+    display: grid;
+    grid-template-columns: 175px 2fr 2fr;
+    grid-template-rows: 1fr 3fr 1.25fr;
+    grid-template-areas: 
+      "nav nav nav"
+      "side main main2"
+      "side main main2"
+}
+.nav {
+    grid-area: nav;
+    display: flex;
+    height: 150px;
+    
+}
+.logo {
+    width: 1300px;
+    padding: 10px;
+    filter: grayscale(1);
+    
+}
+
+ul.nav2, a, li {
+    display: flex;
+    list-style: none;
+    color: #CCD6F6;
+    text-decoration: none;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 100;
+    font-size: 11pt;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.contact:hover {
+    color: #64FFDB;
+}
+.resume, button {
+    color: #64FFDB;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: #64FFDB;
+    background-color: #0A192F;
+    
+}
+.resume:hover {
+    filter: brightness(100%);
+}
+button:hover {
+    filter: brightness(150%);
+    
+}
+.button {
+    padding: 15px;
+}
+.main, p {
+    padding: 0 5%;
+    width: 600px;
+    grid-area: main;
+    font-family: 'Roboto', sans-serif;
+    color: #8892B0;
+    font-size: 15pt;
+    font-weight: 300;
+}
+.main h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #64FFDB;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 15pt;
+    padding: 0 5% 10px;
+}
+h2 {
+    color: #CCD6F6;
+    padding: 0 5%;
+    font-size: 30pt;
+}
+.work li{
+    color: #64FFDB;
+}
+.work li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #64FFDB;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 20px; 
+}
+.main2  {
+    grid-area: main2;
+    width: 500px;
+    padding: 50px 60px;
+    color: #64FFDB;
+    font-family: 'Noto Sans Mono', monospace;
+}
+input[type=text], input[type=email], textarea {
+	background-color: #CCD6F6;
+    border-radius: 6px;
+}
+form {
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    border-radius: 6px;
+}
+.backdrop {
+    padding: 0 0 30px 30px;
+  }
+.backdrop img {
+    border-radius: 6px;
+    display: inline-block;
+    box-shadow: -30px 30px 0 #64FFDB;
+}
+.sidebar {
+    grid-area: side;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100%;
+}
+ul.side li .fa-brands {
+    padding: 15px;
+    color: #8892B0;
+    font-size: 18pt;
+}
+.fa-brands:hover {
+    color: #64FFDB !important;
+    transform: scale(2);
+}
+.vl {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border-left: 2px solid #CCD6F6;
+    height: 200x;
+    margin-left: 65px;
+}
