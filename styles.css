@@ -80,7 +80,7 @@ ul.nav2, a, li {
     width: 500px;
 }
 
-button {
+.projects {
     font-family: 'Noto Sans Mono', monospace;
     color: #64FFDB;
     padding: 5px;
@@ -90,8 +90,9 @@ button {
     border-color: #64FFDB;
     background-color: #0A192F;
     font-size: 12pt;
+    width: 220px;
 }
-button:hover {
+.projects:hover {
     filter: brightness(100%);
 }
 .sidebar {
