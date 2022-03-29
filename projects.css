@@ -49,10 +49,32 @@ ul.nav2, a, li {
     filter: brightness(100%);
 }
 .main {
-    padding: 10%;
-    width: 800px;
-    border-style: solid;
+    grid-area: main;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    margin-top: 30px;
+    padding: 20px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
+
+.card {
+    width: 300px;
+    height: 250px;
+    background-color: #112240;
+    border-radius: 6px;
+    margin: 10px;
+    color: #CCD6F6;
+
+}
+#folder {
+    color: #64FFDB;
+    padding: 15px;
+}
+
 .sidebar {
     grid-area: side;
     display: flex;
