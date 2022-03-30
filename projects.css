@@ -68,11 +68,26 @@ ul.nav2, a, li {
     border-radius: 6px;
     margin: 10px;
     color: #CCD6F6;
-
+}
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+   text-align: center;
+   padding: 10px;
+   color: #8892B0;
+   font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+   
 }
 #folder {
     color: #64FFDB;
+    font-size: 20px;
     padding: 15px;
+}
+#git-icon {
+    font-size: 20px;
 }
 
 .sidebar {
