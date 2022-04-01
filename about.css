@@ -110,4 +110,26 @@ ul.side li .fa-brands {
     height: 200x;
     margin-left: 65px;
 }
+@media only screen and (max-width: 1300px) {
+    .logo {
+        width: 400px;
+    }
+    .main {
+        width: 900px;
+    }
+    body {
+        background-color: #0A192F;
+        display: grid;
+        grid-template-columns: 110px 2fr 2fr;
+        grid-template-rows: .5fr 1fr 1.25fr;
+        grid-template-areas: 
+          "nav nav"
+          "side main"
+          "side main2"
+    }
+    .main {
+        width: 100%;
+    }
+}
+
 

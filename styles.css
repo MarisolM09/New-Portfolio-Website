@@ -139,15 +139,18 @@ ul.side li .fa-brands {
         width: 400px;
     }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     .main h1 {
         font-size: 35pt;
     }
     .main h2 {
         font-size: 35pt;
     }
+    .main {
+        width: 100%;
+    }
     .logo {
-        width: 250px;
+        width: 200px;
     }
     body {
         background-color: #0A192F;
