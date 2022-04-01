@@ -116,7 +116,49 @@ ul.side li .fa-brands {
     border-left: 2px solid #CCD6F6;
     height: 200x;
     margin-left: 65px;
-    
+}
+@media only screen and (max-width: 1200px) {
+    .main h1 {
+        font-size: 45pt;
+    }
+    .main {
+        padding: 5% 10%;
+        
+    }
+    .logo {
+        width: 800px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+
+    .main {
+        padding: 5% 5%;
+        width: 700px;
+    }
+    .logo {
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .main h1 {
+        font-size: 35pt;
+    }
+    .main h2 {
+        font-size: 35pt;
+    }
+    .logo {
+        width: 250px;
+    }
+    body {
+        background-color: #0A192F;
+        display: grid;
+        grid-template-columns: 120px 2fr 2fr;
+        grid-template-rows: 1fr 3fr 1.25fr;
+        grid-template-areas: 
+          "nav nav nav"
+          "side main main"
+          "side main main"
+    }
 }
 
 
