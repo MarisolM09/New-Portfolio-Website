@@ -71,13 +71,23 @@ ul.nav2, a, li {
     color: #CCD6F6;
    
 }
-h2 {
-    text-align: center;
+.Projects-link {
+    justify-content: center;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+    font-weight: 400;
 }
+.Projects-link:hover {
+    color: #64FFDB !important;
+}
+#Simple {
+    padding-left: 30px;
+}
+
 p {
    text-align: center;
-   padding: 15px;
+   padding: 20px;
    color: #8892B0;
    font-family: 'Roboto', sans-serif;
    font-size: 15px;
